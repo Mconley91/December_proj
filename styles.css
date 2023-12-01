@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div {
+    padding: 10px;
+    margin:20px;
+    width: auto;
+    border: 5px dotted red;
+}
+h3 {
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+}
+p {
+    margin: 2px;
+}
+a {
+    color: green;
+    text-align: center;
+    display: block;
+}
+a:visited {
+    color: darkgreen;
+}
+a:hover {
+    color: pink;
+}
+a:active {
+    color: red;
+}
+.navbar {
+    height: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+}
+.purpose {
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+.main {
+    height:fit-content;
+    width: fit-content;
+    max-width: 800px;
+    min-height: 200px;
+    position: absolute;
+    left: 150px;
+    top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.subdiv {
+    margin: 10px;
+    width: fit-content;
+    height:fit-content;
+    border: solid white
+}
+
+#achievement {
+    position: absolute;
+    left: 35%;
+    overflow:hidden;
+}
+@keyframes spin { 
+    0% { 
+        transform:rotate(0deg); 
+    } 
+    100% { 
+        transform:rotate(360deg); 
+    } 
+}
+#pagan_sign {
+    position: absolute;
+    left: 95%;
+    animation:spin 1s linear infinite;
+}
+.clock {
+    position: absolute;
+    top:80px;
+    left: 455px;
+    padding:10px;
+}
