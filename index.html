@@ -4,16 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="refresh" content="1" >
+        <script src="clock.js"></script>
         <title>December</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body onload="startTime()">
         <div class="navbar">
             <h3>Links</h3>
             <p><a href="https://github.com/" target="_blank">Github</a></p>
             <p><a href="https://www.youtube.com/" target="_blank">Youtube</a></p>
             <p><a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></p>
             <p><a href="https://roadmap.sh/full-stack" target="_blank">Dev Roadmap</a></p>
+            <h3><u>CK2 Wikis</u></h3>
+            <p><a href="https://ck2.paradoxwikis.com/Characters" target="_blank">Characters</a></p>
+            <p><a href="https://ck2.paradoxwikis.com/Attributes" target="_blank">Attributes</a></p>
+            <p><a href="https://ck2.paradoxwikis.com/Traits" target="_blank">Traits</a></p>
+            <p><a href="https://ck2.paradoxwikis.com/Ambition" target="_blank">Ambition</a></p>
+            <p><a href="https://ck2.paradoxwikis.com/Focus" target="_blank">Focus</a></p>
         </div>
         <div class="purpose">
             <h3>Purpose</h3>
@@ -32,8 +39,8 @@
             <div class="subdiv"><a href="C:\Users\mrthi\Desktop\Coding_Projects\tutorial_project_1\index.html" target="_blank">Tutorial Website 1</a></div>
             <div class="subdiv"><a href="C:\Users\mrthi\Desktop\Coding_Projects\tutorial_project_1\index.html" target="_blank">Tutorial Website 1</a></div>
         </div>
-        <img src="C:\Users\mrthi\Desktop\Projeks\Art\Pagan.png" id="pagan_sign"></body>
-        <img src="C:\Users\mrthi\Desktop\Coding_Projects\December_Website\achievement.JPG" id="achievement"></body>
-        <div class="clock">TO-DO: Insert a working clock here with javascript</div>
+        <img src="C:\Users\mrthi\Desktop\Projeks\Art\Pagan.png" id="pagan_sign">
+        <img src="C:\Users\mrthi\Desktop\Coding_Projects\December_Website\achievement.JPG" id="achievement">
+        <div class="clock"><span>The Time Is: </span><span id='txt'></span></div>
     </body>
 </html>

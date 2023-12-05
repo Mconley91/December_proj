@@ -7,12 +7,14 @@ div {
     padding: 10px;
     margin:20px;
     width: auto;
-    border: 5px dotted red;
+    border: 5px dashed rgb(43, 37, 37);
 }
 h3 {
     text-align: center;
     margin: auto;
     text-decoration: underline;
+    padding-bottom: 5px;
+    padding-top: 3px;
 }
 p {
     margin: 2px;
@@ -65,7 +67,16 @@ a:active {
 #achievement {
     position: absolute;
     left: 35%;
-    overflow:hidden;
+    overflow:auto;
+    border: solid rgb(43, 37, 37);
+    border-radius: 8px;
+    min-height: fit-content;
+    max-height: fit-content;
+}
+#achievement:hover {
+    height: 80px;
+    width: 900px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 @keyframes spin { 
     0% { 
@@ -82,7 +93,8 @@ a:active {
 }
 .clock {
     position: absolute;
-    top:80px;
-    left: 455px;
+    top:0px;
+    left: 420px;
     padding:10px;
+    overflow:hidden;
 }
