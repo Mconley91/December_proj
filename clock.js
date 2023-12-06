@@ -13,3 +13,9 @@ function startTime() {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
   }
+  //adding audio
+  function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.volume = .2;
+    thissound.play();
+}
